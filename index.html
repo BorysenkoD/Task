@@ -15,6 +15,13 @@
 		background: #000000;
 		margin: 10px;
 	}
+	
+	.btn {
+		width: 70px;
+		height: 50px;
+		margin: 15px;
+	}
+
   </style>
   <body>
 	<div class= "wrapper">
@@ -22,5 +29,10 @@
 		<div id = "second" class="square"> </div>
 		<div id = "third" class="square"> </div>
 	</div>
+	<div class="wrapper">
+   <button class="btn" onclick="change_color('first','red')">red</button>
+   <button class="btn" onclick="change_color('second','yellow')">yellow</button>
+   <button class="btn" onclick="change_color('third','green')">green</button>
+   </div>
   </body>
 </html>
