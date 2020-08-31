@@ -6,4 +6,9 @@ function change_color(elem, color) {
 
 window.onload = function(){
 	document.body.style.backgroundColor = "white";
-};  
+};
+
+function changeBackgroundBody(){
+	document.body.style.backgroundColor = "gray";
+	};
+document.addEventListener("DOMContentLoaded", changeBackgroundBody);
